@@ -2,7 +2,7 @@
 ### 安装
 * `react-native init ProjectName`
 * `adb connect 127.0.0.1:62001`
-* `react-native run-andriod`
+* `react-native run-android`
 
 ### 路由（Router）
 * `yarn add react-native-router-flux@4.0.6`
