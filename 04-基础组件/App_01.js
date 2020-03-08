@@ -11,6 +11,10 @@ import ImageBg from './components/ImageBg';
 //view容器组件
 //Text --显示文本
 //JS创建一个组件，名为Hello,返回Helloworld,在App组件里调用
+/**
+ * StatusBar:是手机顶部的状态条
+ * SafeAreaView:针对iPhone X设备齐刘海页面适配的组件
+ * Text里面包裹Text会显示在一行 */
 
 const styles = StyleSheet.create({
   box: {
@@ -46,7 +50,8 @@ const App = () => {
 
   return (
     <>
-      <StatusBar barStyle="dark_content" />
+      {/* <StatusBar barStyle="dark_content" /> */}
+      <StatusBar backgroundColor={'pink'} />
       <SafeAreaView>
         <ScrollView>
           <Text style={styles.other}>React回顾</Text>
@@ -86,7 +91,6 @@ const App = () => {
             <View style={styles.box}></View>
             <Text style={styles.txt}>Inside</Text>
           </ImageBackground>
-
 
           {/* 自定义组件 ImageBg,实现背景图功能 */}
           <Text style={styles.other}>自定义组件 ImageBg,实现背景图功能</Text>
@@ -186,7 +190,5 @@ const App = () => {
     </>
   );
 };
-
-
 
 export default App;
