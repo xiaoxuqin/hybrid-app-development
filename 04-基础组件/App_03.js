@@ -1,19 +1,11 @@
-import React,{useState,useEffect} from 'react';
+import React from 'react';
 import {
 	SafeAreaView,
 	StyleSheet,
 	View,//相当于div
-	Text,
-	Image,
-	TextInput,
-	Button,
-	ScrollView,
-	ImageBackground,
 	StatusBar,
 	Dimensions,
 	PixelRatio,
-	BackHandler,
-	ToastAndroid
 } from 'react-native';
 
 const styles = StyleSheet.create({
