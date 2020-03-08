@@ -13,6 +13,20 @@
 ![](./image/01.png)
 * `react-native link @ant-design/icons-react-native`
 
+### 图标2（Icon）
+* `yarn add react-native-vector-icons`  
+* `react-native link react-native-vector-icons`
+* `import Icon from 'react-native-vector-icons/FontAwesome';`
+
+### react-native-button
+* `yarn add react-native-button`
+
+### react-native-message-bar
+* `yarn add react-native-message-bar`
+
+### react-native-swiper
+* `yarn add react-native-swiper@nightly`
+
 ### WebView
 * `yarn add react-native-webview`
 * `react-native link react-native-webview`
